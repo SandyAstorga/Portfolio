@@ -1,0 +1,8 @@
+/* Para los tipos de letra */
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Handjet:wght@300&family=Kalam:wght@300&family=Rubik+Glitch&family=Rubik:wght@300&display=swap');
+
+/* Uso de Tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
