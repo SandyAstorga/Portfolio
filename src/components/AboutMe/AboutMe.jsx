@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom"
 
 const AboutMe = () => {
     return (
@@ -14,11 +14,19 @@ const AboutMe = () => {
                 Mi enfoque principal se centra en el Front-end, donde he concentrado mis esfuerzos en proyectos recientes.
             </p>
             <p className="font-handjet font-bold text-white">
-                Poseo habilidades en el manejo de React, Redux, Javascript entre otras. Cuento con un nivel de Inglés A2 (Elemental).
+                Poseo habilidades en el manejo de 
+                <Link to="/tecnologies">
+                <button className="bg-purple rounded-lg text-purple-black w-12 h-6 ml-1 hover:-translate-y-1">React</button>, 
+                <button className="bg-purple rounded-lg text-purple-black w-12 h-6 ml-1 hover:-translate-y-1">Redux</button>,
+                <button className="bg-purple rounded-lg text-purple-black w-20 h-6 ml-1 hover:-translate-y-1">Javascript</button>,  
+                entre otras. Cuento con un nivel de Inglés A2 (Elemental).
+                </Link>
             </p>
             </div>
             <div className="py-7 ml-80 mr-28 text-right">
-                <button className="bg-purple text-white font-bold font-handjet text-2xl h-11 w-44 rounded-lg ">Descargar CV</button>
+                <a href='/Sandra_Astorga.pdf' download={''}>
+                <button className="bg-purple text-white hover:text-purple-black font-bold font-handjet text-2xl h-11 w-44 rounded-lg">Descargar CV</button>
+                </a>
             </div>
             
         </div>

@@ -7,9 +7,9 @@ const Landing = () => {
     }
     return (
         <div className=" fixed bg-purple-dark w-2/5 h-screen py-12">
-            <div className="text-center mr-6 ml-96">
-                <button className="h-11 w-11 mt-1 " onClick={handleDarkMode}>
-                    <img src="./src/assets/moon.png" alt="" className="hover:-translate-x-5 "/>
+            <div className="text-center mr-6 ml-80">
+                <button className="h-7 w-12 mt-1 bg-purple-black rounded-2xl" onClick={handleDarkMode}>
+                    <img src="./src/assets/moon.png" alt="" className="h-7 w-7 hover:translate-x-6"/>
                 </button>
             </div>
             <div className="text-center mr-4 ml-4 mt-20">
@@ -21,16 +21,16 @@ const Landing = () => {
             </div>
 
             <div className="fixed font-handjet font-bold text-white text-2xl mt-11 text-justify mr-40 ml-44 flex-auto block">
-                <Link to="/about" className="hover:text-purple hover:text-4xl transition duration-300 ease-in-out block">
+                <Link to="/about" className="hover:text-purple hover:scale-125 transition duration-300 ease-in-out block">
                     SOBRE MI
                 </Link>
-                <Link to="/tecnologies" className="hover:text-purple hover:text-4xl duration-300 ease-in-out block">
+                <Link to="/tecnologies" className="hover:text-purple hover:scale-125 duration-300 ease-in-out block">
                     TECNOLOGIAS
                 </Link>
-                <Link to="/projects" className="hover:text-purple hover:text-4xl transition duration-300 ease-in-out block">
+                <Link to="/projects" className="hover:text-purple hover:scale-125 transition duration-300 ease-in-out block">
                     PROYECTOS
                 </Link>
-                <Link to="/contact" className="hover:text-purple hover:text-4xl transition duration-300 ease-in-out block">
+                <Link to="/contact" className="hover:text-purple hover:scale-125 transition duration-300 ease-in-out block">
                     CONTACTO
                 </Link>
             </div>
