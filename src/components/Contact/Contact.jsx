@@ -1,12 +1,12 @@
 
 
-const Contacto = () => {
+const Contact = () => {
   return (
-    <div className="bg-purple-black w-3/5 h-screen ml-auto py-12">
-      <div className="ml-14 mr-52 py-3">
+    <div className="bg-purple-black h-screen ml-auto py-12 bg-gradient-to-r from-wine ">
+      <div className="ml-14 mr-52 py-3 animate-fade-in-y">
         <h1 className="text-white font-rubikG text-2xl">¡Gracias por visitar mi perfil y espero podamos trabajar juntos pronto!</h1>
       </div>
-      <form className="font-handjet text-white font-bold text-2xl py-6">
+      <form className=" animate-fade-in-y font-handjet text-white font-bold text-2xl py-6">
         <div className="ml-14 mr-52">
         <label>Nombre:</label>
         <input className="mr-52 rounded-lg"
@@ -32,4 +32,4 @@ const Contacto = () => {
   )
 }
 
-export default Contacto
+export default Contact;

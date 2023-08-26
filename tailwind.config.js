@@ -1,16 +1,16 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
-  "./index.html",
-  "./src/**/*.{js,jsx}",
-],  
+    "./index.html",
+    "./src/**/*.{js,jsx}",
+  ],
   theme: {
     fontFamily: {
       architect: ['Architects Daughter', 'sans-serif'],
       handjet: ['Handjet', 'sans-serif'],
       kalam: ['Kalam', 'sans-serif'],
-      rubikG: ['Rubik Glitch','cursive'],
-      rubik: ['Rubik','cursive']
+      rubikG: ['Rubik Glitch', 'cursive'],
+      rubik: ['Rubik', 'cursive']
     },
     colors: {
       'purple': '#A2678A',
@@ -20,12 +20,18 @@ export default {
       'white': '#FFFFFF',
       'wine': '#3F1D38'
     },
-    extend: {},
+    extend: {
+      keyframes: {
+        "fade-in-y": {
+          "0%": { opacity: 0, transform: "translateY(20px)" },
+          "100%": { opacity: 1, transform: "translateY(0px)" },
+        },
+      },
+      animation: {
+        "fade-in-y": "fade-in-y 1s linear",
+      },
+    },
   },
-  plugins: [
-      // Define tus propios gradientes con la notación degradado cónico.
-      // Esto es solo un ejemplo, debes ajustarlo según tus necesidades.
-      {'conic-md': ['conic-gradient(from 180deg at 50% 50.00%, #443C68 0deg, rgba(68, 60, 104, 0.00) 359.92798805236816deg, rgba(68, 60, 104, 0.16) 359.9639940261841deg)']}
-  ],
+  plugins: []
 }
 

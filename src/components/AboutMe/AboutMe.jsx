@@ -1,12 +1,13 @@
 import { Link } from "react-router-dom"
 
+
 const AboutMe = () => {
     return (
-        <div className="bg-purple-black w-3/5 h-screen ml-auto py-2">
-            <div className="py-2 mr-96 ml-2">
-                <img src="./src/assets/perfil.jpg" alt="" className=" h-60 w-60 ml-12"/>
+        <div className="bg-purple-black  h-screen ml-auto py-2 bg-gradient-to-r from-wine">
+            <div className="py-2 mr-96 ml-2 ">
+                <img src="./src/assets/perfil.jpg" alt="" className=" h-60 w-60 ml-12 hover:scale-110"/>
             </div>
-            <div className="mr-28 ml-32  text-justify-center text-xl">
+            <div className="mr-28 ml-32  text-justify-center text-xl animate-fade-in-y">
             <p className="font-handjet font-bold text-white">
                 Soy Desarrolladora Web Full Stack con educación profesional en Ingeniería en Sistemas Computacionales, lo que me ha permitido comprender la relevancia de las tecnologías en el mundo actual.
             </p>
@@ -25,7 +26,7 @@ const AboutMe = () => {
             </div>
             <div className="py-7 ml-80 mr-28 text-right">
                 <a href='/Sandra_Astorga.pdf' download={''}>
-                <button className="bg-purple text-white hover:text-purple-black font-bold font-handjet text-2xl h-11 w-44 rounded-lg">Descargar CV</button>
+                <button className="bg-purple text-white hover:text-purple-black font-bold font-handjet text-2xl h-11 w-44 rounded-lg hover:scale-110">Descargar CV</button>
                 </a>
             </div>
             
