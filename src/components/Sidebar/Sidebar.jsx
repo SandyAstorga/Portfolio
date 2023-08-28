@@ -20,7 +20,7 @@ const Sidebar = () => {
             </div>
             <div className="text-center mr-4 ml-4 mt-20">
             <Link to='/'>
-                <h1 className="font-rubikG text-5xl text-purple hover:scale-110">
+                <h1 className="animate-pulse font-rubikG text-5xl text-purple hover:scale-110">
                 SANDRA ASTORGA
                 </h1>
             </Link>
