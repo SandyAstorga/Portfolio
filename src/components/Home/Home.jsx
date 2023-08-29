@@ -27,7 +27,7 @@ const Home = () => {
             <div className='mt-9 text-center font-handjet font-bold text-white text-3xl'>
             <span ref={textRef}></span>
             </div>
-            <img src="./public/assets/home.png" alt="" className="mx-auto mt-9 md:w-2/3 h-auto animate-wiggle" />
+            <img src="./assets/home.png" alt="" className="mx-auto mt-9 md:w-2/3 h-auto animate-wiggle" />
         </div>
     )
 }

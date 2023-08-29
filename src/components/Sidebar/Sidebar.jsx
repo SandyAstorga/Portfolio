@@ -14,7 +14,7 @@ const Sidebar = () => {
         <>
             <div className="md:flex md:space-x-4 md:items-center md:mt-9 md:ml-4 md:mr-4">
                 <button className="h-7 w-12 bg-purple-black md:rounded-2xl" onClick={handleDarkMode}>
-                    <img src="./public/assets/moon.png" alt="" className="h-7 w-7 hover:translate-x-6" />
+                    <img src="./assets/moon.png" alt="" className="h-7 w-7 hover:translate-x-6" />
                 </button>
             </div>
             <div className="text-center mt-4 md:mt-16">
@@ -48,7 +48,7 @@ const Sidebar = () => {
                     <BsGithub className=" w-7 h-7 rounded-full hover:-translate-y-1 hover:text-purple" />
                 </a>
             </div>
-            <div className="md:mt-9 mt-3 md:ml-4 md:mr-20">
+            <div className="md:mt-6 mt-3 md:ml-4 md:mr-20">
                 <span className="font-handjet font-bold text-white ml-7">
                     Creada y Diseñada por Sandra Astorga 💟
                 </span>

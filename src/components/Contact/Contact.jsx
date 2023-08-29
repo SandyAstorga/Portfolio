@@ -55,7 +55,7 @@ const Contact = () => {
           </div>
           {/* <div className="md:w-1/2"> */}
             <img
-              src="./public/assets/mensaje.png"
+              src="./assets/mensaje.png"
               alt=""
               className="animate-fade-in-y md:mr-6 w-24 h-24 hover:scale-110"
             />
