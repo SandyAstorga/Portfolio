@@ -1,3 +1,4 @@
+//Responsive
 import Typed from 'typed.js';
 import { useEffect, useRef } from 'react';
 
@@ -22,11 +23,11 @@ const Home = () => {
     }, []);
 
     return (
-        <div className="bg-purple-black h-screen  py-2 bg-gradient-to-r from-wine">
+        <div className="bg-purple-black md:h-screen py-2 bg-gradient-to-r from-wine">
             <div className='mt-9 text-center font-handjet font-bold text-white text-3xl'>
             <span ref={textRef}></span>
             </div>
-            <img src="./src/assets/home.png" alt="" className="ml-32 mt-9 w-2/3 h-auto animate-wiggle" />
+            <img src="./src/assets/home.png" alt="" className="mx-auto mt-9 md:w-2/3 h-auto animate-wiggle" />
         </div>
     )
 }
