@@ -14,7 +14,7 @@ const Sidebar = () => {
         <>
             <div className="md:flex md:space-x-4 md:items-center md:mt-9 md:ml-4 md:mr-4">
                 <button className="h-7 w-12 bg-purple-black md:rounded-2xl" onClick={handleDarkMode}>
-                    <img src="./src/assets/moon.png" alt="" className="h-7 w-7 hover:translate-x-6" />
+                    <img src="./public/assets/moon.png" alt="" className="h-7 w-7 hover:translate-x-6" />
                 </button>
             </div>
             <div className="text-center mt-4 md:mt-16">

@@ -6,7 +6,7 @@ const AboutMe = () => {
         <div className="bg-purple-black md:h-screen py-2 bg-gradient-to-r from-wine">
             <div className=" md:justify-center md:items-center">
                 <div className=" md:ml-9 md:mr-9">
-                    <img src="./src/assets/perfil.jpg" alt="" className="h-52 w-52 hover:scale-110" />
+                    <img src="./public/assets/perfil.jpg" alt="" className="h-52 w-52 hover:scale-110" />
                 </div>
                 <div className="text-center md:text-left  md:ml-9 animate-fade-in-y">
                     <p className="font-handjet font-bold text-white text-xl md:text-2xl md:max-w-md md:ml-32 ">

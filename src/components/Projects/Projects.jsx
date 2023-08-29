@@ -7,7 +7,7 @@ const Projects = () => {
                 <h1 className="animate-fade-in-y font-rubikG text-purple text-lg ml-5 mr-5 ">Proyecto Grupal - GymGo</h1>
                 <h2 className="font-handjet text-white font-bold text-xl ml-5 mr-5 animate-fade-in-x">Henry Bootcamp (Junio 2023 - Julio 2023)</h2>
                 <a href="https://gym-go-five.vercel.app">
-                <img src="./src/assets/gymgo.jpg" alt="" className="md:ml-20 mt-2 rounded-full md:h-32 md:w-44 hover:scale-110" />
+                <img src="./public/assets/gymgo.jpg" alt="" className="md:ml-20 mt-2 rounded-full md:h-32 md:w-44 hover:scale-110" />
                 </a>
             {/* </div> */}
             {/* <div className="md:w-1/3 md:ml-6">  */}
@@ -20,7 +20,7 @@ const Projects = () => {
                 <h1 className="font-rubikG text-purple text-lg ml-5 mr-5 animate-fade-in-y">Proyecto Individual - BonAppetit</h1>
                 <h2 className="font-handjet text-white font-bold text-xl ml-5 mr-5 animate-fade-in-x">Henry Bootcamp (Mayo 2023 - Junio 2023)</h2>
                 <a href="https://pi-food-deploy-ten.vercel.app/">
-                <img src="./src/assets/pifood.jpg" alt="" className="md:ml-20 mt-2 rounded-full md:h-32 md:w-44 hover:scale-110" />
+                <img src="./public/assets/pifood.jpg" alt="" className="md:ml-20 mt-2 rounded-full md:h-32 md:w-44 hover:scale-110" />
                 </a>
             {/* </div> */}
             {/* <div className="md:w-1/2 md:ml-6">  */}
