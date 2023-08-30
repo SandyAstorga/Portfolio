@@ -1,6 +1,10 @@
 {
     "routes": [
         {
+            "src": "/",
+            "dest": "/Home.js"
+        },
+        {
             "src": "/about",
             "dest": "/AboutMe.js"
         },
@@ -15,10 +19,6 @@
         {
             "src": "/projects",
             "dest": "/Projects.js"
-        },
-        {
-            "src": "/*",
-            "dest": "/Home.js"
         }
     ]
 }
