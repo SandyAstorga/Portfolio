@@ -2,7 +2,8 @@
 
 const Projects = () => {
     return (
-        <div className="bg-purple-black md:h-screen md:flex items-center bg-gradient-to-r from-wine">
+        <>
+        <div className=" md:flex items-center ">
             <div className="md:w-1/2 md:ml-5 py-6">
                 <h1 className="animate-fade-in-y font-rubikG text-purple text-lg ml-5 mr-5 ">Proyecto Grupal - GymGo</h1>
                 <h2 className="font-handjet text-white font-bold text-xl ml-5 mr-5 animate-fade-in-x">Henry Bootcamp (Junio 2023 - Julio 2023)</h2>
@@ -30,6 +31,7 @@ const Projects = () => {
                 <p className="font-handjet text-white font-bold text-lg mr-2 animate-fade-in-y">La app es un catálogo interactivo de recetas. Los usuarios encuentran platos con detalles de preparación, dieta y salud. La interfaz intuitiva permite ordenar y filtrar recetas según preferencias. También permite añadir o eliminar recetas personales, fomentando la colaboración en la comunidad culinaria.</p>
             </div>
         </div>
+        </>
     )
 }
 

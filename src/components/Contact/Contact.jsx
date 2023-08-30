@@ -46,7 +46,7 @@ const Contact = () => {
   };
   
   return (
-      <div className="bg-purple-black md:h-screen py-6 bg-gradient-to-r from-wine">
+      <>
         <div className="md:flex md:items-center md:space-x-9 md:px-11 mt-5 ml-9 mr-9">
           <div className="md:w-1/2">
             <h1 className="text-white font-rubikG text-xl animate-fade-in-y">
@@ -94,7 +94,7 @@ const Contact = () => {
             className="bg-purple text-white hover:text-purple-black font-bold font-handjet text-xl h-10 w-24 rounded-lg hover:scale-110 ml-10"
           > Enviar </button>
         </form>
-      </div>
+      </>
     );
 }
 

@@ -7,7 +7,7 @@ const Home = () => {
 
     useEffect(() => {
         const options = {
-            strings: ['Desarrollo', 'Diseño', 'Programación'],
+            strings: ['Desarrolladora', 'Web', 'Fullstack'],
             typeSpeed: 50,
             backSpeed: 25,
             startDelay: 1000,
@@ -23,12 +23,13 @@ const Home = () => {
     }, []);
 
     return (
-        <div className="bg-purple-black md:h-screen py-2 bg-gradient-to-r from-wine">
-            <div className='mt-9 text-center font-handjet font-bold text-white text-3xl'>
+        <>
+            <div className='md:mt-8 md:mr-6 md:ml-6 text-center font-handjet font-bold text-white text-3xl'>
             <span ref={textRef}></span>
             </div>
-            <img src="./assets/home.png" alt="" className="mx-auto mt-9 md:w-2/3 h-auto animate-wiggle" />
-        </div>
+            <h3 className="font-handjet text-ms font-bold text-white mt-2 md:ml-8 duration-200">Enfocada en el Front-end, transformando ideas en realidad</h3>
+            <img src="./assets/home.png" alt="" className="mx-auto md:w-2/3 h-auto animate-pulse" />
+        </>
     )
 }
 

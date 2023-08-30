@@ -1,12 +1,13 @@
 //Responsive
 const Tecnologies = () => {
     return (
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 bg-purple-black md:h-screen py-10 bg-gradient-to-r from-wine">
+        <>
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4">
             <div className="h-32 w-40 mx-auto animate-fade-in-y  justify-center items-center">
                 <h1 className="animate-fade-in-x font-handjet font-bold text-white text-center">Lenguajes de Programacion</h1>
                 <img src="./assets/javascript.png" alt="" className="w-16 h-16 mx-auto mt-2 hover:scale-110" />
             </div>
-            <div className="h-32 w-40 mx-auto animate-fade-in-y flex flex-wrap justify-center items-center">
+            <div className="md:mt-8 h-32 w-40 mx-auto animate-fade-in-y flex flex-wrap justify-center items-center">
                 <h1 className="animate-fade-in-x font-handjet font-bold text-white text-center">Frameworks y FrontEnd</h1>
                 <img src="./assets/redux.png" alt="" className=" w-16 h-16 mx-auto mt-2 hover:scale-110" />
                 <img src="./assets/react.png" alt="" className=" w-16 h-16 mx-auto mt-2 hover:scale-110" />                 
@@ -14,7 +15,7 @@ const Tecnologies = () => {
                 <img src="./assets/CSS.png" alt="" className=" w-16 h-16 mx-auto mt-2 hover:scale-110" />                 
                 <img src="./assets/figma.png" alt="" className=" w-16 h-16 mx-auto mt-2 hover:scale-110" />
             </div>
-            <div className="mt-32 h-32 w-40 mx-auto animate-fade-in-y flex flex-wrap justify-center items-center">
+            <div className=" md:mt-12 mt-32 h-32 w-40 mx-auto animate-fade-in-y flex flex-wrap justify-center items-center">
                 <h1 className="animate-fade-in-x font-handjet font-bold text-white text-center">Base de Datos y BackEnd</h1>
                 <img src="./assets/node.png" alt="" className=" w-16 h-16 mx-auto mt-2 hover:scale-110" />
                 <img src="./assets/express.png" alt="" className=" w-16 h-16 mx-auto mt-2 hover:scale-110" />
@@ -33,6 +34,7 @@ const Tecnologies = () => {
                 <img src="./assets/scrum.png" alt="" className=" w-16 h-16 mx-auto mt-2 hover:scale-110" />
             </div>
         </div>
+        </>
     );
 };
 
