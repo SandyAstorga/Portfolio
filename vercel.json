@@ -1,24 +1,8 @@
 {
-    "routes": [
+    "rewrites": [
         {
-            "src": "/",
-            "dest": "/Home.js"
-        },
-        {
-            "src": "/about",
-            "dest": "/AboutMe.js"
-        },
-        {
-            "src": "/contact",
-            "dest": "/Contact.js"
-        },
-        {
-            "src": "/tecnologies",
-            "dest": "/Tecnologies.js"
-        },
-        {
-            "src": "/projects",
-            "dest": "/Projects.js"
+            "source": "/(.*)",
+            "destination": "/"
         }
     ]
 }
