@@ -1,11 +1,11 @@
 import './App.css'
-import MainPage from './components/MainPage/MainPage'
+import Sidebar from './components/Sidebar/Sidebar'
 
 
 function App() {
   return (
-    <div className='App'>
-      <MainPage/>
+    <div className="bg-gradient-to-r from-purple-black to-purple-black">
+      <Sidebar/>
     </div>
   )
 }

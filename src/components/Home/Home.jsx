@@ -24,11 +24,11 @@ const Home = () => {
 
     return (
         <>
-            <div className='md:mt-8 md:mr-6 md:ml-6 text-center font-handjet font-bold text-white text-3xl'>
+            <div className='md:mr-6 md:ml-6 text-center font-handjet font-bold text-white text-3xl'>
             <span ref={textRef}></span>
             </div>
-            <h3 className="font-handjet text-ms font-bold text-white mt-2 md:ml-8 duration-200">Enfocada en el Front-end, transformando ideas en realidad</h3>
-            <img src="./assets/home.png" alt="" className="mx-auto md:w-2/3 h-auto animate-pulse" />
+            <h3 className="font-handjet md:text-2xl font-bold text-white text-center mt-2 md:ml-8 duration-200">Enfocada en el Front-end, transformando ideas en realidad</h3>
+            <img src="./assets/home.png" alt="" className="md:mx-auto md:w-2/5 md:h-auto animate-pulse " />
         </>
     )
 }
