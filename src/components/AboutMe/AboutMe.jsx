@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 const AboutMe = () => {
     return (
         <>
-            <div className=" md:justify-center md:items-center ">
-                <div className=" md:ml-9 md:mr-9 ">
-                    <img src="./assets/perfil.jpg" alt="" className="md:h-52 md:w-52 hover:scale-110" />
+            <div className="md:justify-center md:items-center ">
+                <div className="ml-5">
+                    <img src="./assets/perfil.jpg" alt="" className=" h-52 w-52 hover:scale-110" />
                 </div>
                 <div className="text-center md:text-left  md:ml-9 animate-fade-in-y">
                     <p className="font-handjet font-bold text-white md:text-xl md:max-w-md md:ml-32 ">

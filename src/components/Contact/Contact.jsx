@@ -57,7 +57,7 @@ const Contact = () => {
             <img
               src="./assets/mensaje.png"
               alt=""
-              className="animate-fade-in-y md:mr-6 w-24 h-24 hover:scale-110"
+              className="animate-fade-in-y md:mr-6 w-24 h-24 hover:scale-110 contrast-50"
             />
           {/* </div> */}
         </div>
