@@ -27,7 +27,7 @@ const AboutMe = () => {
                 </div>
             </div>
             <div className="text-center mt-4 md:ml-80 md:mr-28">
-                <a href='/CV_Sandra_Astorga.pdf' download={''}>
+                <a href='/CV Sandra Astorga.pdf' download={''}>
                     <button className="bg-purple text-white hover:text-purple-black font-bold font-handjet text-2xl h-11 w-44 rounded-lg hover:scale-110">Descargar CV</button>
                 </a>
             </div>
